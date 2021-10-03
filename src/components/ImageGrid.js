@@ -7,7 +7,9 @@ const ImageGrid = ({ setSelectedImg, collection, onSelectedProfileImage }) => {
   const { docs } = useFirestore(collection)
 
   if (collection = 'profileImages') {
-    onSelectedProfileImage(docs)
+    if (onSelectedProfileImage) {
+      onSelectedProfileImage(docs)
+    }
   }
   
   console.log(docs)

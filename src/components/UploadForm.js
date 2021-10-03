@@ -36,7 +36,7 @@ const UploadForm = () => {
         <input type="file" id="input-file" onChange={changeHandler} />
         {error && <div className={FormCSS.error}>{error}</div> }
         {file && <ProgressBar file={file} setFile={setFile} collection={'images'}/>}
-        <ImageGrid setSelectedImg={setSelectedImg} collection={'profileImages'}/>
+        <ImageGrid setSelectedImg={setSelectedImg} collection={'images'}/>
         {selectedImg && <Modal selectedImg={selectedImg} setSelectedImg={setSelectedImg} />}
     </form>
   )

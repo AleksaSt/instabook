@@ -19,7 +19,7 @@ export default function Dashboard() {
 
   const types = ["image/jpeg", "image/png"]
 
-  let setActiveProfileImage = (image) => {
+  const setActiveProfileImage = (image) => {
     setProfileImage(...image)
   }
 
@@ -69,7 +69,7 @@ export default function Dashboard() {
           {error && <Alert variant="danger">{error}</Alert>}
           {uploadError && <Alert variant="danger">{uploadError}</Alert>}
           {file && <ProgressBar file={file} setFile={setFile} collection={'profileImages'}/>}
-            <ImageGrid setSelectedImg={setSelectedImg} collection={'profileImages'} onSelectedProfileImage={ setActiveProfileImage }/>
+          <ImageGrid setSelectedImg={setSelectedImg} collection={'profileImages'} onSelectedProfileImage={ setActiveProfileImage }/>
           {selectedImg && <Modal selectedImg={selectedImg} setSelectedImg={setSelectedImg} />}
           <div className={DashCSS.email}>Email: {currentUser.email}</div>
           <Link to="/gallery">
