@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap');
+
+body {
+  background-color: #f2f2f2;
+}
+
+.heading {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 55px;
+  margin-top: 90px;
+  display: flex;
+  justify-content: center;
+  opacity: 0.9;
+}
+
+.headingTwo {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 22px;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 25px;
+}
+
+.formDiv {
+  display: flex; 
+  justify-content: center;
+}
+
+.formLabel {
+  color: #ffb366;
+  font-size: 30px;
+  width: 40px;
+  height: 40px;
+  border: 2px solid grey;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: white;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.formLabel div{
+  position: relative;
+  left: 7.5px;
+  bottom: 7px;
+}
+
+.formLabel:hover {
+  background-color: grey;
+}
+
+.error {
+  color: #ff0000;
+  font-size: 15px;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,42 @@
+.mainDiv {
+  height: 500px;
+  width: 500px;
+  margin: auto;
+  margin-top: 25vh;
+}
+
+.mainHeading {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+  margin-top: 30px;
+}
+
+.MainButtonDiv {
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+}
+
+.emailAndPassword {
+  color: grey;
+  font-size: 18px;
+}
+
+.registerText {
+  margin-top: 5px;
+  color: grey;
+  display: flex;
+  justify-content: center;
+}
+
+.registerText  a{
+  text-decoration: none;
+  margin-left: 3px;
+}

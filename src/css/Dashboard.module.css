@@ -1,0 +1,66 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+.sectionMain{
+  display: flex;
+  justify-content: center;
+}
+
+.mainDiv {
+  height: 500px;
+  width: 400px;
+  margin-top: 20vh;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* .headingOne {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 35px;
+  margin-top: 20vh;
+  margin-right: 15vw;
+  opacity: 0.9;
+} */
+
+.headingTwo {
+  font-family: 'Open Sans', sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+.formDiv {
+  display: flex;
+  justify-content: center;
+}
+
+.formLabel {
+  color: #ffb366;
+  font-size: 30px;
+  width: 40px;
+  height: 40px;
+  border: 2px solid grey;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: white;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.formLabel div {
+  position: relative;
+  left: 9px;
+  bottom: 4px;
+}
+
+.email {
+  font-size: 18px;
+}
+
+.MainButtonDiv {
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  margin-top: 50px;
+  width: 100px;
+}

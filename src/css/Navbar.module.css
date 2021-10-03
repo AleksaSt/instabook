@@ -1,0 +1,6 @@
+.svg {
+  z-index: 2000;
+  color: white;
+  position: relative;
+  right: 10px;
+}
