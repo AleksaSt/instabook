@@ -12,9 +12,11 @@ const ImageGrid = ({ setSelectedImg, collection, onSelectedProfileImage }) => {
     }
   }
   
-  console.log(docs)
+  // console.log(docs)
 
   return (
+    <div className={ImageGridCSS.mainImageGrid}>
+
     <div className={ImageGridCSS.imageGrid}>
       {docs && docs.map(doc => (
         <motion.div className={ImageGridCSS.imageDiv} key={doc.id}
@@ -29,6 +31,7 @@ const ImageGrid = ({ setSelectedImg, collection, onSelectedProfileImage }) => {
           />
         </motion.div>
       ))}
+    </div>
     </div>
   )
 }

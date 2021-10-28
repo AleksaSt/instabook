@@ -8,8 +8,9 @@ import Login from "./Login"
 import PrivateRoute from "./PrivateRoute";
 import UploadForm from "./UploadForm";
 import NavbarPage from "./NavbarPage";
-import Footer from "./Footer";
+// import Footer from "./Footer";
 import ErrorPage from "./ErrorPage";
+import UsersPage from "./UsersPage";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <NavbarPage />
         <AuthProvider>
           <Switch>
+            <Route path="/users" component={UsersPage} />
             <PrivateRoute exact path="/" component={Dashboard} />
             <Route path="/signup" component={Signup} />
             <Route path="/login" component={Login} />
@@ -25,7 +27,7 @@ function App() {
             <Route path='*' component={ErrorPage} />
           </Switch>
         </AuthProvider>
-      <Footer />
+      {/* <Footer /> */}
       </Router>
     </Container>
   ) 

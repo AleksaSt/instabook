@@ -29,7 +29,7 @@ const UploadForm = () => {
       <h1 className={FormCSS.heading}>Your Pictures</h1>
       <h5 className={FormCSS.headingTwo}>Post your favorite pictures in your very own gallery!</h5>
       <div className={FormCSS.formDiv}>
-      <label className={FormCSS.formLabel} for="input-file">
+        <label className={FormCSS.formLabel} for="input-file">
           <div>+</div>
         </label>
       </div>
